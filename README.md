@@ -101,12 +101,13 @@ Your feedback for improving and optimizing the code is warmly welcomed.
 
 # Contact
 
-I am primarily active on Discord, but my **DMs are closed**. So the most 
-effective way to get in touch with me is via the 
-[Trilobite Tavern](https://discord.gg/trilobitetavern) Discord Server's 
-**support ticket**.
+I am primarily active on Discord, but my **DMs are closed**. The most effective 
+way to get in touch with me is via a Discord Server's **support ticket**. 
 
-I serve as a `System Administrator` on that server and am highly active there. 
-I have decided to take this approach as it allows me to keep my focus on mod 
-development, without the added responsibility of owning and maintaining 
-my own Discord server.
+To find the most up-to-date invite link to the Discord server, please visit my 
+**Twitter/X** profile: [@Tyzeron](https://x.com/tyzeron).
+
+I serve as a `System Administrator` on the Discord server and am highly active 
+there. I have decided to take this approach as it allows me to keep my focus on 
+mod development, without the added responsibility of owning and maintaining my 
+own Discord server.
