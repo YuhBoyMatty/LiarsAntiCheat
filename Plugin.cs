@@ -6,7 +6,7 @@
 using BepInEx;
 using BepInEx.Logging;
 using HarmonyLib;
-using LethalCompanyMinimap;
+using LiarsAntiCheat.Helpers;
 using LiarsAntiCheat.Patches;
 
 namespace LiarsAntiCheat

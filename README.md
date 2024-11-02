@@ -102,7 +102,7 @@ Your feedback for improving and optimizing the code is warmly welcomed.
 # Contact
 
 I am primarily active on Discord, but my **DMs are closed**. The most effective 
-way to get in touch with me is via a Discord Server's **support ticket**. 
+way to get in touch with me is via a Discord Server **support ticket**.
 
 To find the most up-to-date invite link to the Discord server, please visit my 
 **Twitter/X** profile: [@Tyzeron](https://x.com/tyzeron).

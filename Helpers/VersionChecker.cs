@@ -7,9 +7,8 @@ using System.Net.Http;
 using System.Threading.Tasks;
 using System;
 using System.Runtime.InteropServices;
-using LiarsAntiCheat;
 
-namespace LethalCompanyMinimap
+namespace LiarsAntiCheat.Helpers
 {
     public class VersionChecker
     {
@@ -38,7 +37,7 @@ namespace LethalCompanyMinimap
 
         public static async Task GetLatestVersionAsync()
         {
-            string mainUrl = "http://liaranticheat.tyzeron.com";
+            string mainUrl = "http://liarsanticheat.tyzeron.com";
             string fallbackUrl = $"https://api.github.com/repos/{LiarsAntiCheatMod.modRepository}/releases/latest";
             if (!await GetVersionFromUrlAsync(mainUrl))
             {

@@ -4,7 +4,6 @@
 // ----------------------------------------------------------------------
 
 using HarmonyLib;
-using LiarsAntiCheat.Extensions;
 using LiarsAntiCheat.Helpers;
 using LiarsAntiCheat.Models;
 using Mirror;

@@ -5,7 +5,7 @@
 
 using Mirror;
 
-namespace LiarsAntiCheat.Extensions
+namespace LiarsAntiCheat.Helpers
 {
     public static class NetworkHelper
     {

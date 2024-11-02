@@ -4,7 +4,6 @@
 // ----------------------------------------------------------------------
 
 using HarmonyLib;
-using LethalCompanyMinimap;
 using LiarsAntiCheat.Helpers;
 using Mirror;
 using System;
@@ -34,7 +33,7 @@ namespace LiarsAntiCheat.Patches
             }
             else
             {
-                ChatHelper.Broadcast("GLHF and no cheating ;)", "white");
+                ChatHelper.Broadcast("The mod is Up-To-Date :)", "white");
             }
         }
     }
