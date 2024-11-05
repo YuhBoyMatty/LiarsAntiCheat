@@ -34,10 +34,11 @@ namespace LiarsAntiCheat.Helpers
         public static void KickPlayer(NetworkConnectionToClient cn, string reason)
         {
             ChatHelper.Broadcast(reason, "red");
+            PlayerObjectController player = GetPlayerByConnection(cn);
+
             LiarsAntiCheatMod.mls.LogInfo($"Kicking Player {cn.connectionId}...");
             cn.Disconnect();
 
-            PlayerObjectController player = GetPlayerByConnection(cn);
             if (player == null)
             {
                 ChatHelper.Broadcast($"Kicked Player {cn.connectionId}!", "red");

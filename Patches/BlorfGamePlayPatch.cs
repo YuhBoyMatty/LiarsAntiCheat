@@ -200,7 +200,7 @@ namespace LiarsAntiCheat.Patches
                 // The player tried to load thier bullet to an invalid slot
                 PlayerHelper.KickPlayer(
                     __instance.connectionToClient,
-                    $"Player {__instance.connectionToClient.connectionId} tried to load their bullet to slot {currentRevolver}"
+                    $"Player {__instance.connectionToClient.connectionId} tried to load their bullet to slot {revolverBullet}"
                 );
                 return;
             }
