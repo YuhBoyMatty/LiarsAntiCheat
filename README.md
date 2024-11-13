@@ -111,3 +111,9 @@ I serve as a `System Administrator` on the Discord server and am highly active
 there. I have decided to take this approach as it allows me to keep my focus on 
 mod development, without the added responsibility of owning and maintaining my 
 own Discord server.
+
+---
+
+© Copyright 2024 Tyzeron
+
+This mod is not authorized for posting on Steam, except under the Steam account named [Tyzeron](https://steamcommunity.com/id/tyzeron)
