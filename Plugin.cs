@@ -16,7 +16,7 @@ namespace LiarsAntiCheat
     {
         public const string modGUID = "LiarsAntiCheat";
         public const string modName = "Liar's Anti-Cheat Mod";
-        public const string modVersion = "1.0.0";
+        public const string modVersion = "1.0.1";
         public const string modAuthor = "Tyzeron";
         public const string modRepository = "tyzeron/LiarsAntiCheat";
 

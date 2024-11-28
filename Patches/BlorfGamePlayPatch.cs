@@ -72,6 +72,17 @@ namespace LiarsAntiCheat.Patches
         [HarmonyPrefix]
         static bool ValidateThrownCard(BlorfGamePlay __instance, ref List<int> types)
         {
+            // Validate that they cannot throw more than 3 cards and less than 1 card
+            if (types.Count > 3 || types.Count < 1)
+            {
+                // The player is trying to play an illegal amount of cards
+                PlayerHelper.KickPlayer(
+                    __instance.connectionToClient,
+                    $"Player {__instance.connectionToClient.connectionId} tried to play {types.Count} cards."
+                );
+                return false; // Cancel the execution of the original method
+            }
+
             // Get the cards that the player should have in their hands
             List<int> playerCards = __instance.Cards
                 .Where(card => card.activeSelf)
