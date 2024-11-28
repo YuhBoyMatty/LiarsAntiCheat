@@ -22,7 +22,7 @@ namespace LiarsAntiCheat.Patches
             foreach (StackFrame frame in stackTrace.GetFrames())
             {
                 MethodBase method = frame.GetMethod();
-                if (method.Name.Contains("UserCode_ThrowCardsCmd__List"))
+                if (method.Name.Contains("UserCode_ThrowCardsCmd__List") && method.DeclaringType.Name == "BlorfGamePlay")
                 {
                     // Obfuscate thrown cards
                     item = 4;

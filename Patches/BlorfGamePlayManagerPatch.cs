@@ -34,7 +34,7 @@ namespace LiarsAntiCheat.Patches
             {
                 return;
             }
-            ChatHelper.Broadcast("GLHF and no cheating ;)", "white");
+            ChatHelper.Broadcast("This game is protected by an Anti-Cheat mod", "white");
         }
     }
 }
